@@ -10,6 +10,8 @@ public class Calculator {
         switch (sign) {
             case DIVIDE:
                 return arg1 / arg2;
+            case MULTIPLY:
+                return arg1 * arg2;
             default:
                 break;
         }
